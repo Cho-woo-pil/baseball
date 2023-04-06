@@ -27,7 +27,7 @@ public class Main {
         //자리수 합치기위해 Integer.toString으로 int값을 String값으로 변환해주어 문자열 합치기
         String baseball = Integer.toString(intArray[0])+Integer.toString(intArray[1])+Integer.toString(intArray[2]);
         //정답확인
-        System.out.println(baseball);
+        //System.out.println(baseball);
         System.out.println("컴퓨터가 숫자를 생성하였습니다. 답을 맞춰보세요!");
 
         Scanner sc = new Scanner(System.in);
